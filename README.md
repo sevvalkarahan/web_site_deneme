@@ -1,0 +1,8 @@
+![anasayfa1](https://github.com/sevvalkarahan/web_site_deneme/assets/110262354/62d9e851-d126-4ded-954e-6da80af03c96)
+![anasayfa2](https://github.com/sevvalkarahan/web_site_deneme/assets/110262354/fff9a023-7a43-4668-8a1c-7d4855b4e9b7)
+![giyim](https://github.com/sevvalkarahan/web_site_deneme/assets/110262354/229a54ce-2f6e-4392-873e-316c8a30257b)
+![aksesuar1](https://github.com/sevvalkarahan/web_site_deneme/assets/110262354/7c4c1a24-aa2a-4cf5-b8ca-180d1932e7d2)
+![aksesuar2](https://github.com/sevvalkarahan/web_site_deneme/assets/110262354/5b874a70-3e81-4bdd-8776-94acdee0e39a)
+![ayakkabı1](https://github.com/sevvalkarahan/web_site_deneme/assets/110262354/ef500d3f-1686-45de-88ad-ce7e009d3954)
+![ayakkabı2](https://github.com/sevvalkarahan/web_site_deneme/assets/110262354/698df046-f608-4fb8-949a-efcbaeb3e6ee)
+![ayakkabı3](https://github.com/sevvalkarahan/web_site_deneme/assets/110262354/0bf3b83d-d675-44c8-86f0-dee08dffcd07)
