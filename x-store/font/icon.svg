@@ -1,0 +1,12 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg">
+<metadata>Copyright (C) 2023 by original authors @ fontello.com</metadata>
+<defs>
+<font id="icon" horiz-adv-x="1000" >
+<font-face font-family="icon" font-weight="400" font-stretch="normal" units-per-em="1000" ascent="850" descent="-150" />
+<missing-glyph horiz-adv-x="1000" />
+<glyph glyph-name="heart" unicode="&#xe800;" d="M348 754c-116 0-192-94-192-200 0-100 57-187 127-256 71-69 155-121 213-151h0c3-1 5-1 8 0 58 30 142 82 213 151 70 69 127 156 127 256 0 106-76 200-192 200-72 0-118-38-152-90-34 52-79 90-152 90z m0-16c71 0 112-37 145-92l0 0c2-2 4-4 7-4s5 2 7 4c33 55 74 92 145 92 107 0 176-86 176-184 0-94-54-177-122-245-68-66-149-116-206-146-57 30-138 80-205 146-69 68-123 151-123 245 0 98 69 184 176 184z" horiz-adv-x="1000" />
+</font>
+</defs>
+</svg>

@@ -1,0 +1,426 @@
+html,
+body {
+background-color: gray;
+    height: 100%;
+    margin: 0;
+    left: 0;
+}
+
+.container {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 60px;
+    background-color: rgb(61, 62, 72);
+    position: fixed;
+    z-index: 1;
+
+
+}
+
+.navbar {
+    margin-top: 20px;
+}
+
+li {
+    list-style-type: none;
+    display: inline-block;
+    position: relative;
+}
+
+.navbar li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 20px;
+}
+
+label {
+    color: white;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.navbar li:hover {
+    transform: scale(1.2);
+}
+
+.urunlerimiz {
+    background-color: white;
+    border: 1px solid black;
+    position: fixed;
+    top: 90px;
+    left: -300px;
+    width: 250px;
+    height: 100%;
+    z-index: 0;
+    transition: 500ms left;
+
+}
+
+#check {
+    display: none;
+}
+
+#check:checked+div {
+
+    left: 0;
+}
+
+#check:checked~.hakkimizda {
+    margin-left: 400px;
+    width: 1000px;
+}
+
+#check:checked~.footer {
+    margin-left: 400px;
+    width: 1000px;
+}
+
+
+dl {
+    font-size: 25px;
+    color: black;
+    padding-left: 2px;
+}
+
+dt a {
+    color: black;
+    font-size: 15px;
+    padding-left: 7px;
+    text-decoration: none;
+}
+
+.img {
+    margin-left: 35%;
+
+
+}
+
+.hakkimizda {
+
+    margin-left: 100px;
+    margin-right: 100px;
+    background-color: white;
+    border: 2px solid black;
+    transition: 500ms box-shadow;
+
+}
+
+.hakkimizda:hover {
+    box-shadow: 2px 2px 10px black;
+}
+
+h1 {
+    text-align: center;
+}
+
+.footer {
+    background-color: #ccc;
+    margin-top: 20px;
+    height: 50px;
+}
+
+.footer ul li {
+    padding-top: 20px;
+}
+
+.footer ul li a {
+    color: black;
+    text-decoration: none;
+    padding-right: 10px;
+
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+.urunlerClass {
+
+    margin-top: 50px;
+    text-align: center;
+    font-size: xx-large;
+    color: #747070;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Pacifico', cursive;
+    box-shadow: 2px 2px 10px black;
+}
+
+label {
+    color: rgb(124, 123, 123);
+}
+
+.card {
+    display: inline-block;
+    margin-right: 40px;
+    position: relative;
+    left: 10px;
+    height: 300px;
+    width: 230px;
+    border: 1px solid #747070;
+    box-shadow: 1px 1px 5px black;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.card:hover {
+    transform: scale(1.2);
+}
+
+.image img {
+    width: 200px;
+    height: 200px;
+    position: relative;
+    left: 12px;
+
+}
+
+h5 {
+    color: rgba(0, 0, 0, 0.509);
+}
+
+button {
+    position: relative;
+    left: 5px;
+    border: 1px solid rgb(210, 203, 203);
+    border-radius: 10px;
+}
+
+.gomlekSecenekleri {
+    transform: scale(0);
+    position: absolute;
+    transition: 500ms transform;
+}
+
+#gomlek:checked~.gomlekSecenekleri {
+    position: relative;
+    transform: scale(1);
+
+}
+
+.jeanSecenekleri {
+    transform: scale(0);
+    position: absolute;
+    transition: 500ms transform;
+}
+
+#jean:checked~.jeanSecenekleri {
+    position: relative;
+    transform: scale(1);
+}
+
+.kabanSecenekleri {
+    transform: scale(0);
+    position: absolute;
+    transition: 500ms transform;
+}
+
+#kaban:checked~.kabanSecenekleri {
+    position: relative;
+    transform: scale(1);
+}
+
+.ceketSecenekleri {
+    transform: scale(0);
+    position: absolute;
+    transition: 500ms transform;
+}
+
+#ceket:checked~.ceketSecenekleri {
+    position: relative;
+    transform: scale(1);
+}
+
+.tisortSecenekleri {
+    transform: scale(0);
+    position: absolute;
+    transition: 500ms transform;
+}
+
+#tisort:checked~.tisortSecenekleri {
+    position: relative;
+    transform: scale(1);
+}
+
+.takiSecenekleri {
+    transform: scale(0);
+    position: absolute;
+    transition: 500ms transform;
+}
+
+#taki:checked~.takiSecenekleri {
+    position: relative;
+    transform: scale(1);
+}
+
+.gozlukSecenekleri {
+    transform: scale(0);
+    position: absolute;
+    transition: 500ms transform;
+}
+
+#gozluk:checked~.gozlukSecenekleri {
+    position: relative;
+    transform: scale(1);
+}
+
+.kemerSecenekleri {
+    transform: scale(0);
+    position: absolute;
+    transition: 500ms transform;
+}
+
+#kemer:checked~.kemerSecenekleri {
+    position: relative;
+    transform: scale(1);
+}
+
+.sapkaSecenekleri {
+    transform: scale(0);
+    position: absolute;
+    transition: 500ms transform;
+}
+
+#sapka:checked~.sapkaSecenekleri {
+    position: relative;
+    transform: scale(1);
+}
+
+.cantaSecenekleri {
+    transform: scale(0);
+    position: absolute;
+    transition: 500ms transform;
+}
+
+#canta:checked~.cantaSecenekleri {
+    position: relative;
+    transform: scale(1);
+}
+
+.topukluSecenekleri {
+    transform: scale(0);
+    position: absolute;
+    transition: 500ms transform;
+}
+
+#topuklu:checked~.topukluSecenekleri {
+    position: relative;
+    transform: scale(1);
+}
+
+.sporSecenekleri {
+    transform: scale(0);
+    position: absolute;
+    transition: 500ms transform;
+}
+
+#spor:checked~.sporSecenekleri {
+    position: relative;
+    transform: scale(1);
+}
+
+.terlikSandaletSecenekleri {
+    transform: scale(0);
+    position: absolute;
+    transition: 500ms transform;
+}
+
+#terlikSandalet:checked~.terlikSandaletSecenekleri {
+    position: relative;
+    transform: scale(1);
+}
+
+.babetSecenekleri {
+    transform: scale(0);
+    position: absolute;
+    transition: 500ms transform;
+}
+
+#babet:checked~.babetSecenekleri {
+    position: relative;
+    transform: scale(1);
+}
+
+
+#gomlek,
+#jean,
+#kaban,
+#ceket,
+#tisort,
+#taki,
+#gozluk,
+#kemer,
+#sapka,
+#canta,
+#topuklu,
+#spor,
+#terlikSandalet,
+#babet {
+    display: none;
+}
+
+.gosterim {
+    display: inline-block;
+    padding: 10px;
+    margin-bottom: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: justify;
+    font-size: xx-large;
+    color: #fff;
+}
+
+.gosterim:hover {
+    transform: scale(1.1);
+    background-color: #cac4c4;
+    color: #333;
+    border-radius: 20px;
+    box-shadow: 1px 1px 3px black;
+}
+
+.secenekler {
+    text-align: center;
+}
+
+@font-face {
+    font-family: 'icon';
+    src: url('font/icon.eot?5274879');
+    src: url('font/icon.eot?5274879#iefix') format('embedded-opentype'),
+        url('font/icon.woff2?5274879') format('woff2'),
+        url('font/icon.woff?5274879') format('woff'),
+        url('font/icon.ttf?5274879') format('truetype'),
+        url('font/icon.svg?5274879#icon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+[class^="icon-"]:before,
+[class*=" icon-"]:before {
+    font-family: "icon";
+    font-style: normal;
+    font-weight: normal;
+    speak: never;
+
+    display: inline-block;
+    text-decoration: inherit;
+    font-variant: normal;
+    text-transform: none;
+
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-heart:before {
+    content: '\e800';
+}
+
+em {
+    font-size: 20px;
+    position: relative;
+    left: 5px;
+    top: 4px;
+    color: rgb(54, 148, 226);
+}
+
+em:hover {
+    color: white;
+    background-color: rgb(54, 148, 226);
+}
